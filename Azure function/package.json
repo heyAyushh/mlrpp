@@ -1,0 +1,17 @@
+{
+  "name": "function",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "argv": "0.0.2",
+    "kafka-node": "^2.6.1",
+    "optimist": "^0.6.1",
+    "time-stamp": "^2.0.0"
+  }
+}
