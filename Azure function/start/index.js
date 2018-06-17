@@ -1,7 +1,7 @@
 var kafka = require("../node_modules/kafka-node");
 var HighLevelProducer = kafka.HighLevelProducer;
 const client = new kafka.KafkaClient({ kafkaHost: "localhost:9092" });
-var argv = require("../node_modules/optimist").argv;
+var argv = require("optimist").argv;
 var topic = argv.topic || "mlrpp";
 var count = 10;
 var rets = 0;
